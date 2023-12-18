@@ -1,0 +1,186 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.logo > img {
+    width: 140px;
+    margin: 5px;
+
+    margin-left: 15px;
+
+}
+
+.menu {
+    background-color: #58819F;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+}
+
+nav > div{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+nav > div > a{
+    text-decoration: none;
+    font-size: large;
+    color: #dff9fb;
+}
+
+nav > div > a:hover{
+    color: #78e08f;
+}
+
+.banner{
+    width: 100%;
+    height: 750px;
+}
+
+.banner > img {
+    width: 100%;
+    max-height: 750px;
+}
+
+.slogan{
+    font-size:35px;
+    color: white;
+
+    position: absolute;
+    top: 51%;
+    left: 26%;
+
+}
+
+.polpas{
+    background-color: #f8efba;
+    padding: 30px;
+}
+
+.secaofrutas{
+    padding: 30px;
+    background-color: #58B19F;
+}
+
+.secaoMudas{
+    padding: 30px;
+    background-color: #dfe6e9;
+}
+
+.sabor, .frutas, .mudas{
+    min-height: 300px;
+    min-width: 250px;
+    padding: 15px;
+}
+
+center > h1{
+    color: green;
+    font-size: 35px;
+}
+
+center > div{
+    color: orange;
+}
+
+
+
+.s01{
+    background-image: url("../imagens/graviola.jpg");
+}
+
+.s02{
+    background-image: url("../imagens/caju.PNG");
+}
+
+.s03{
+    background-image: url("../imagens/Maracuja.jpg");
+}
+
+.s04{
+    background-image: url("../imagens/acerola.jpg");
+}
+
+.s05{
+    background-image: url("../imagens/Uva.png");
+}
+
+.s06{
+    background-image: url("../imagens/tamarino.jpg");
+}
+
+.s07{
+    background-image: url("../imagens/goiaba.jpg");
+}
+
+.s08{
+    background-image: url("../imagens/manga.jpg");
+}
+
+.saborRows, .rowfrutas, .Mudasrow{
+    display: flex;
+    flex-direction: row;
+}
+
+.s01, .s08{
+    flex:1;
+}
+
+.s02, .s03, .s04, .s05, .s06, .s07{
+    flex:1;
+}
+
+.s01,.s02, .s03, .s04, .s05, .s06, .s07, .s08, .f01, .f02, .f03, .m01, .m02, .m03{
+    border: 1px solid blue;
+    border-radius: 10px;
+
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    font-size: x-large;
+    font-weight: bolder;
+
+    margin: 10px;
+
+    color: #009432;
+}
+
+.f01{
+    background-image: url("../imagens/frutaBanana.jpg");
+}
+
+.f02{
+    background-image: url("../imagens/frutaGoiaba.jpg");
+}
+
+.f03{
+    background-image: url("../imagens/frutaMamao.png");
+}
+
+.f01, .f02, .f03, .m01, .m02, .m03{
+    flex:1;
+}
+
+.m01{
+    background-image: url("../imagens/mudaGoiaba.jpg");
+}
+.m02{
+    background-image: url("../imagens/mudaGraviola.jpg");
+}
+.m03{
+    background-image: url("../imagens/mudaMaracuja.jpg");
+}
